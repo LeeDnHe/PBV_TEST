@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:543329264bf814928bb3bf16aaba23e5c0d47f4e3ab23eb6c8577edb0ff47c28
-size 452
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e602f74c3faabe47a5e2dd216cc53d6, type: 3}
+  m_Name: FontAwesomeInfo
+  m_EditorClassIdentifier: 
+  _iconJson: []
+  _iconFont: []
+  fontCache: []
