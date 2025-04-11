@@ -1,0 +1,11 @@
+Model Information:
+* title:	Steering Model & UV
+* source:	https://sketchfab.com/3d-models/steering-model-uv-5c3fe6b5c03144ae99ec1ebd04bc453b
+* author:	manishreddy (https://sketchfab.com/manishreddy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Steering Model & UV" (https://sketchfab.com/3d-models/steering-model-uv-5c3fe6b5c03144ae99ec1ebd04bc453b) by manishreddy (https://sketchfab.com/manishreddy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,34 @@
+{
+    "data":{
+        "/":
+        {
+            "files":[".flowconfig"],
+            "folders":["firstContainer"],
+            "parent":"/workspace"
+        },
+        "firstContainer":
+        {
+            "files":["README.md","index.py","goorm.manifest"],
+            "folders":["api", "test"],
+            "parent":"/workspace/firstContainer"
+        },
+        "firstContainer/api":
+        {
+            "files":[],
+            "folders":["files"],
+            "parent":"/workspace/firstContainer/api"
+        },
+        "firstContainer/test":
+        {
+            "files":[],
+            "folders":[],
+            "parent":"/workspace/firstContainer/api"
+        },
+        "firstContainer/api/files":
+        {
+            "files":["fileTest"],
+            "folders":[],
+            "parent":"/workspace/firstContainer/api/files"
+        }},
+    "status":"success"
+}

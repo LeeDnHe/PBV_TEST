@@ -1,0 +1,160 @@
+#Project-overview
+목표: Unity WebGL을 통해 온메이커스의 PBV 개방형 설계 플랫폼을 제작. 사용자가 특장차량을 설계하고 생산자(기아 자동차)가 이를 기반으로 차량을 생산할 수 있도록 하는 플랫폼.
+핵심 기술: Unity, WebGL 빌드, Addressable Asset 시스템을 활용한 3D 모델링 파일 관리
+
+#feature-requirements
+사용자 설계 도구 : 사용자는 차량을 설계할 수 있는 편집 도구와 분석 도구를 제공받습니다.
+설계한 차량 모델을 DB에서 불러오고, Unity 플랫폼 내에서 3D 모델링 편집 및 분석을 할 수 있어야 합니다.
+
+WebGL 빌드 및 호스팅 : WebGL 빌드를 통해 웹에서 프로젝트를 실행하고 외부에서 접근할 수 있어야 합니다.
+Github Desktop을 사용하여 변경 사항을 커밋하고, 호스팅용 웹페이지로 프로젝트를 배포합니다.
+
+Addressable Asset 관리 : 3D 모델링 파일을 Unity의 Addressable 시스템을 사용하여 DB에서 불러와 사용합니다.
+어드레서블을 통해 3D 모델을 관리하고, FBX, OBJ, glTF 파일 형식을 지원합니다.
+
+Gizmo와 Transform 기능 : Gizmo를 통해 사용자는 모델의 이동, 회전, 크기 조정을 실시간으로 할 수 있습니다.
+Runtime Transform Gizmos 에셋을 사용하여 인터페이스 상에서 객체를 조작할 수 있습니다.
+
+NavMeshAgent를 통한 제약 설정 : 물체가 특정 범위 내에서만 이동할 수 있도록 NavMeshAgent를 사용하여 제약을 설정합니다.
+특정 오브젝트가 지정된 구역 내에서만 이동할 수 있도록 설정합니다.
+
+부피 및 질량 계산 기능 : MeshVolumeCalculator를 통해 객체의 부피 계산 및 질량 계산을 지원합니다.
+추후 밀도 값을 입력하면 총 질량이나 무게중심 계산이 가능하도록 설계되어 있습니다.
+
+DB 및 파일 구조 관리 : DB 내부의 파일 계층 구조를 파악하고, 이를 Unity에서 시각적으로 확인할 수 있도록 JSON API를 통해 데이터를 처리합니다.
+
+#relevant-codes
+
+#Current-file-instruction
+- 최상위 구조
+Designer
+├── Assets
+├── Packages
+├── ProjectSettings
+├── Library
+├── Logs
+├── Temp
+├── UserSettings
+├── MyServerData
+├── WebGL Builds
+├── WebGL Server
+├── AssetsEmbeddedFloorMaps
+├── obj
+├── .idea
+├── .vscode
+├── Designer.sln
+├── Designer.sln.DotSettings.user
+├── webgl_sharing
+└── 각종 csproj 파일들 (Assembly-CSharp, ProceduralToolkit 등)
+- Assets 폴더 구조
+Assets
+├── Scenes
+│   ├── VolumeCalculator.unity
+│   ├── ObjLoading.unity
+│   ├── ObjLoading/
+│   ├── InspectorTest.unity
+│   ├── Rendering.unity
+│   ├── Rendering/
+│   ├── AddressableTest.unity
+│   └── FolderTreeTest.unity
+├── Scripts
+│   ├── AllocateGizmo.cs
+│   ├── ApplyColorController.cs
+│   ├── AssetThumbnail.cs
+│   ├── DisplayFileTree.cs
+│   ├── FileExplorer.cs
+│   ├── FileTreeTest.cs
+│   ├── ImportGLTF.cs
+│   ├── LoadAddressable.cs
+│   ├── LoadMergedMesh.cs
+│   ├── MeshMergerEditor.cs
+│   ├── MeshVolumeCalculator.cs
+│   ├── MoveOnNavMesh.cs
+│   ├── ShowHideController.cs
+│   ├── SpawnAsset.cs
+│   └── StringParser.cs
+├── Prefabs
+│   ├── FolderPrefab.prefab
+│   └── FilePrefab.prefab
+├── Models
+├── MergedMeshes
+├── AddressableAssetsData
+├── URP Assets
+│   └── UniversalRenderPipelineGlobalSettings.asset
+├── Sprites
+├── StreamingAssets
+├── Plugins
+├── Runtime Transform Gizmos
+├── ObjImport
+├── Resources
+├── Exoa
+└── FlexibleColorPicker
+- ProjectSettings 폴더 구조
+ProjectSettings
+├── ProjectSettings.asset
+├── ScriptableBuildPipeline.json
+├── NavMeshAreas.asset
+├── ShaderGraphSettings.asset
+├── GraphicsSettings.asset
+├── TagManager.asset
+├── QualitySettings.asset
+├── URPProjectSettings.asset
+├── InputManager.asset
+├── TimelineSettings.asset
+├── EditorBuildSettings.asset
+├── CommonBurstAotSettings.json
+├── BurstAotSettings_WebGL.json
+├── Packages/
+├── SceneTemplateSettings.json
+├── ProjectVersion.txt
+├── UnityConnectSettings.asset
+└── 기타 설정 파일들
+
+Assets: 주요 에셋 파일들이 저장된 폴더
+AddressableAssetsData: 어드레서블 에셋 시스템 관련 데이터
+Exoa: 외부 라이브러리/에셋
+FlexibleColorPicker: 색상 선택 기능을 위한 에셋
+MergedMeshes: 병합된 메시 데이터
+Models: 3D 모델 파일들
+ObjImport: OBJ 파일 임포트 관련 에셋
+Plugins: 플러그인 폴더
+Prefabs: 프리팹 파일들
+Resources: 리소스 파일들
+Runtime Transform Gizmos: 런타임에서 사용되는 변형 기즈모 에셋
+Scenes: 씬 파일들
+Scripts: 스크립트 파일들
+Sprites: 스프라이트 이미지 파일들
+StreamingAssets: 스트리밍 에셋 파일들
+URP Assets: Universal Render Pipeline 에셋
+Scripts: 주요 스크립트 파일들
+AllocateGizmo.cs: 기즈모 할당 관련 스크립트
+ApplyColorController.cs: 색상 적용 컨트롤러
+AssetThumbnail.cs: 에셋 썸네일 생성/관리
+DisplayFileTree.cs: 파일 트리 표시
+FileExplorer.cs: 파일 탐색기 기능
+FileTreeTest.cs: 파일 트리 테스트
+ImportGLTF.cs: GLTF 파일 임포트
+LoadAddressable.cs: 어드레서블 에셋 로드 관리
+LoadMergedMesh.cs: 병합된 메시 로드
+MeshMergerEditor.cs: 메시 병합 에디터
+MeshVolumeCalculator.cs: 메시 부피 계산기
+MoveOnNavMesh.cs: NavMesh를 통한 이동 제약 설정
+ShowHideController.cs: UI 요소 표시/숨김 제어
+SpawnAsset.cs: 에셋 생성 관리
+StringParser.cs: 문자열 파싱 유틸리티
+
+#Rules
+AllocateGizmo.cs , ImportGLTF.cs, LoadAddressable.cs 해당 파일들은 제일 후순위로 수정
+Scripts 파일은 새로 생성하면 Scripts 파일에 저장
+
+#Additional features to be added
+CAD Exchanger API: 3D 모델링 파일을 Step 파일로 변환하여 Unity로 자동 변환하는 기능.
+
+3D 모델링 파일을 어드레서블로 만들어 DB에 업로드하는 과정을 자동화 하는 기능
+
+모델 거리 측정: 두 물체 간 거리를 측정할 수 있는 기능 추가.
+
+Constraint 관리: 각 모델에 대해 특정 범위에서만 움직일 수 있는 제약 기능.
+
+모바일 환경 지원: 두 손으로 줌 인/줌 아웃을 하여 화면을 조정할 수 있도록 기능 추가.
+

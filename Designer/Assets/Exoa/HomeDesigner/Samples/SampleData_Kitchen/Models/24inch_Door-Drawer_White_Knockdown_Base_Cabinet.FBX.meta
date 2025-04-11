@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 5bbe0bffa686fab468a9ba1913116516
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 24" Door/Drawer White Knockdown Base Cabinet 1
+    100002: 24" Victoria Cabinet Two Doors/ One Drawer
+    100004: //RootNode
+    100006: Knob
+    100008: Knob 1
+    100010: Knob 2
+    100012: Pull
+    100014: Pull 1
+    100016: Pull 2
+    100018: Top
+    100020: 24" Victoria Cabinet Two Doors/ One Drawer Interior
+    100022: 24" Victoria Cabinet Two Doors/ One Drawer Left
+    100024: 24" Victoria Cabinet Two Doors/ One Drawer Right
+    100026: 24" Victoria Cabinet Two Doors/ One Drawer Tiroir
+    100028: facade001
+    400000: 24" Door/Drawer White Knockdown Base Cabinet 1
+    400002: 24" Victoria Cabinet Two Doors/ One Drawer
+    400004: //RootNode
+    400006: Knob
+    400008: Knob 1
+    400010: Knob 2
+    400012: Pull
+    400014: Pull 1
+    400016: Pull 2
+    400018: Top
+    400020: 24" Victoria Cabinet Two Doors/ One Drawer Interior
+    400022: 24" Victoria Cabinet Two Doors/ One Drawer Left
+    400024: 24" Victoria Cabinet Two Doors/ One Drawer Right
+    400026: 24" Victoria Cabinet Two Doors/ One Drawer Tiroir
+    400028: facade001
+    2100000: No Name
+    2300000: 24" Door/Drawer White Knockdown Base Cabinet 1
+    2300002: 24" Victoria Cabinet Two Doors/ One Drawer
+    2300004: Knob
+    2300006: Knob 1
+    2300008: Knob 2
+    2300010: Pull
+    2300012: Pull 1
+    2300014: Pull 2
+    2300016: Top
+    2300018: 24" Victoria Cabinet Two Doors/ One Drawer Interior
+    2300020: 24" Victoria Cabinet Two Doors/ One Drawer Left
+    2300022: 24" Victoria Cabinet Two Doors/ One Drawer Right
+    2300024: 24" Victoria Cabinet Two Doors/ One Drawer Tiroir
+    2300026: facade001
+    3300000: 24" Door/Drawer White Knockdown Base Cabinet 1
+    3300002: 24" Victoria Cabinet Two Doors/ One Drawer
+    3300004: Knob
+    3300006: Knob 1
+    3300008: Knob 2
+    3300010: Pull
+    3300012: Pull 1
+    3300014: Pull 2
+    3300016: Top
+    3300018: 24" Victoria Cabinet Two Doors/ One Drawer Interior
+    3300020: 24" Victoria Cabinet Two Doors/ One Drawer Left
+    3300022: 24" Victoria Cabinet Two Doors/ One Drawer Right
+    3300024: 24" Victoria Cabinet Two Doors/ One Drawer Tiroir
+    3300026: facade001
+    4300000: Knob
+    4300002: Knob
+    4300004: Pull
+    4300006: Pull
+    4300008: Pull
+    4300010: Knob
+    4300012: 24" Victoria Cabinet Two Doors/ One Drawer
+    4300014: 24" Door/Drawer White Knockdown Base Cabinet
+    4300016: Top
+    4300018: 24" Victoria Cabinet Two Doors/ One Drawer Tiroir
+    4300020: 24" Victoria Cabinet Two Doors/ One Drawer Right
+    4300022: 24" Victoria Cabinet Two Doors/ One Drawer Left
+    4300024: facade001
+    4300026: 24" Victoria Cabinet Two Doors/ One Drawer Interior
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

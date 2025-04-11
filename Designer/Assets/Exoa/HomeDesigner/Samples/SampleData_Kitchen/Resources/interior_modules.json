@@ -1,0 +1,364 @@
+﻿{
+  "modules": [
+    {
+      "prefab": "15inch_3-Drawer_White_Knockdown_Base_Cabinet",
+      "id": 24,
+      "sku": "2516755",
+      "type": "product",
+      "price": 175.0,
+      "title": "15\" 3-Drawer White Knockdown Base Cabinet",
+      "description": "15\" 3-Drawer White Knockdown Base Cabinet"
+    },
+    {
+      "prefab": "21inch_x_30inch_White_Knockdown_Wall",
+      "id": 25,
+      "sku": "2516724",
+      "type": "product",
+      "price": 95.0,
+      "title": "21\" x 30\" White Knockdown Wall Cabinet",
+      "description": "21\" x 30\" White Knockdown Wall Cabinet"
+    },
+    {
+      "prefab": "24inch_Door-Drawer_White_Knockdown_Base_Cabinet",
+      "id": 26,
+      "sku": "2516754",
+      "type": "product",
+      "price": 139.0,
+      "title": "24\" Door/Drawer White Knockdown Base Cabinet",
+      "description": "24\" Door/Drawer White Knockdown Base Cabinet"
+    },
+    {
+      "prefab": "24inch_White_Knockdown_Wall_Corner_Cabinet",
+      "id": 27,
+      "sku": "2516731",
+      "type": "product",
+      "price": 175.0,
+      "title": "24\" White Knockdown Wall Corner Cabinet",
+      "description": "24\" White Knockdown Wall Corner Cabinet"
+    },
+    {
+      "prefab": "30inch_x_24inch_x_30inch_White_Knockdown_Wall_Cabinet",
+      "id": 28,
+      "sku": "2516732",
+      "type": "product",
+      "price": 159.0,
+      "title": "30\" x 24\" x 30\" White Knockdown Wall Cabinet",
+      "description": "30\" x 24\" x 30\" White Knockdown Wall Cabinet"
+    },
+    {
+      "prefab": "30inch_x_30inch_White_Knockdown_Wall_Cabinet",
+      "id": 29,
+      "sku": "2516727",
+      "type": "product",
+      "price": 125.0,
+      "title": "30\" x 30\" White Knockdown Wall Cabinet",
+      "description": "30\" x 30\" White Knockdown Wall Cabinet"
+    },
+    {
+      "prefab": "36inch_White_Knockdown_Base_Cabinet",
+      "id": 30,
+      "sku": "2516749",
+      "type": "product",
+      "price": 155.0,
+      "title": "36\" White Knockdown Base Cabinet",
+      "description": "36\" White Knockdown Base Cabinet"
+    },
+    {
+      "prefab": "36inch_White_Knockdown_Base_Corner_Cabinet",
+      "id": 31,
+      "sku": "2516751",
+      "type": "product",
+      "price": 260.0,
+      "title": "36\" White Knockdown Base Corner Cabinet",
+      "description": "36\" White Knockdown Base Corner Cabinet"
+    },
+    {
+      "prefab": "36inch_x_24inch_x_12inch_White_Knockdown_Wall_Bridge_Cabinet",
+      "id": 32,
+      "sku": "2516717",
+      "type": "product",
+      "price": 95.0,
+      "title": "36\" x 24\" x 12\" White Knockdown Wall Bridge Cabinet",
+      "description": "36\" x 24\" x 12\" White Knockdown Wall Bridge Cabinet"
+    },
+    {
+      "prefab": "84inch_H_x_15nich_W_x_24inch_D_White_Knockdown_Base_Cabinet",
+      "id": 33,
+      "sku": "2516719",
+      "type": "product",
+      "price": 250.0,
+      "title": "84\"H x 15\"W x 24\"D White Knockdown Base Cabinet",
+      "description": "84\"H x 15\"W x 24\"D White Knockdown Base Cabinet"
+    },
+    {
+      "prefab": "DiningTable1_Rev",
+      "id": 34,
+      "sku": "DTABLE1",
+      "type": "product",
+      "price": 495.0,
+      "title": "Dinning Table Model 1",
+      "description": "Dinning Table Model 1"
+    },
+    {
+      "prefab": "DiningTable2_Rev",
+      "id": 35,
+      "sku": "DTABLE2",
+      "type": "product",
+      "price": 495.0,
+      "title": "Dinning Table Model 2",
+      "description": "Dinning Table Model 2"
+    },
+    {
+      "prefab": "Furniture1",
+      "id": 13,
+      "sku": "FUR1",
+      "type": "product",
+      "price": 195.0,
+      "title": "Furniture1",
+      "description": "Sink"
+    },
+    {
+      "prefab": "Furniture4",
+      "id": 18,
+      "sku": "FUR4",
+      "type": "product",
+      "price": 145.0,
+      "title": "Furniture4",
+      "description": "Furniture4"
+    },
+    {
+      "prefab": "Furniture2c",
+      "id": 14,
+      "sku": "FUR2",
+      "type": "product",
+      "price": 645.0,
+      "title": "Furniture2",
+      "description": "Furniture2"
+    },
+    {
+      "prefab": "Furniture3",
+      "id": 15,
+      "sku": "FUR3",
+      "type": "product",
+      "price": 135.0,
+      "title": "Furniture3",
+      "description": "Furniture3"
+    },
+    {
+      "prefab": "Appliance1",
+      "id": 16,
+      "sku": "APP1",
+      "type": "product",
+      "price": 339.0,
+      "title": "Appliance1",
+      "description": "Appliance1"
+    },
+    {
+      "prefab": "Appliance2",
+      "id": 17,
+      "sku": "APP2",
+      "type": "product",
+      "price": 439.0,
+      "title": "Appliance2",
+      "description": "Appliance2"
+    },
+    {
+      "prefab": "Furniture5",
+      "id": 19,
+      "sku": "FUR5",
+      "type": "product",
+      "price": 645.0,
+      "title": "Furniture5",
+      "description": "Furniture5"
+    },
+    {
+      "prefab": "Furniture6",
+      "id": 20,
+      "sku": "FUR6",
+      "type": "product",
+      "price": 699.0,
+      "title": "Furniture6",
+      "description": "Furniture6"
+    },
+    {
+      "prefab": "Door_WithJoint",
+      "id": 36,
+      "sku": "DOOR1",
+      "type": "product",
+      "price": 139.0,
+      "title": "Door",
+      "description": "Door"
+    },
+    {
+      "prefab": "Furniture2b",
+      "id": 50,
+      "sku": "FUR2B",
+      "type": "product",
+      "price": 699.0,
+      "title": "Furniture2B",
+      "description": "Furniture2B"
+    },
+    {
+      "prefab": "Furniture2",
+      "id": 51,
+      "sku": "FUR2",
+      "type": "product",
+      "price": 699.0,
+      "title": "Furniture2",
+      "description": "Furniture2"
+    },
+    {
+      "prefab": "Wind_AboveSink_WithJoint",
+      "id": 37,
+      "sku": "Window1",
+      "type": "product",
+      "price": 125.0,
+      "title": "Window1",
+      "description": "Window1"
+    },
+    {
+      "prefab": "Wind_Wall_WithJoint",
+      "id": 38,
+      "sku": "Window2",
+      "type": "product",
+      "price": 95.0,
+      "title": "Window2",
+      "description": "Window2"
+    },
+    {
+      "prefab": "CeilingLIght0_Rev",
+      "id": 39,
+      "sku": "LIGHT1233",
+      "type": "product",
+      "price": 199.0,
+      "title": "Light Model 1",
+      "description": "Ceiling Light Model 1"
+    },
+    {
+      "prefab": "CeilingLight1_Rev",
+      "id": 40,
+      "sku": "LIGHT1234",
+      "type": "product",
+      "price": 145.0,
+      "title": "Light Model 2",
+      "description": "Ceiling Light Model 2"
+    },
+    {
+      "prefab": "CeilingLight2_Rev",
+      "id": 41,
+      "sku": "LIGHT1235",
+      "type": "product",
+      "price": 645.0,
+      "title": "Light Model 3",
+      "description": "Ceiling Light Model 3"
+    },
+    {
+      "prefab": "CeilingLIght3_Rev",
+      "id": 42,
+      "sku": "LIGHT1236",
+      "type": "product",
+      "price": 135.0,
+      "title": "Light Model 4",
+      "description": "Ceiling Light Model 4"
+    },
+    {
+      "prefab": "CeilingLIght4_Rev",
+      "id": 43,
+      "sku": "LIGHT1237",
+      "type": "product",
+      "price": 195.0,
+      "title": "Light Model 5",
+      "description": "Ceiling Light Model 5"
+    },
+    {
+      "prefab": "CeilingLIght5_Rev",
+      "id": 44,
+      "sku": "LIGHT1238",
+      "type": "product",
+      "price": 339.0,
+      "title": "Light Model 6",
+      "description": "Ceiling Light Model 6"
+    },
+    {
+      "prefab": "CeilingLightPod_Rev",
+      "id": 45,
+      "sku": "LIGHT1239",
+      "type": "product",
+      "price": 155.0,
+      "title": "Light Model 7",
+      "description": "Ceiling Light Model 7"
+    },
+    {
+      "prefab": "CoffeeMarhine1_Rev",
+      "id": 46,
+      "sku": "Appliance1",
+      "type": "product",
+      "price": 439.0,
+      "title": "Coffee Machine",
+      "description": ""
+    },
+    {
+      "prefab": "Kettle1_Rev",
+      "id": 47,
+      "sku": "Appliance2",
+      "type": "product",
+      "price": 339.0,
+      "title": "Kettle",
+      "description": ""
+    },
+    {
+      "prefab": "MicroWave1_Rev",
+      "id": 48,
+      "sku": "Appliance3",
+      "type": "product",
+      "price": 125.0,
+      "title": "Micro Wave",
+      "description": ""
+    },
+    {
+      "prefab": "Toaster1_Rev",
+      "id": 49,
+      "sku": "Appliance4",
+      "type": "product",
+      "price": 125.0,
+      "title": "Toaster",
+      "description": ""
+    },
+    {
+      "prefab": "PatioSet1",
+      "id": 21,
+      "sku": "Pat1",
+      "type": "product",
+      "price": 999.0,
+      "title": "5 pieces set",
+      "description": ""
+    },
+    {
+      "prefab": "PatioSet2",
+      "id": 22,
+      "sku": "Pat2",
+      "type": "product",
+      "price": 1.199,
+      "title": "5 pieces set  1",
+      "description": ""
+    },
+    {
+      "prefab": "PatioSet3",
+      "id": 23,
+      "sku": "Pat3",
+      "type": "product",
+      "price": 1.099,
+      "title": "5 pieces set 2",
+      "description": ""
+    },
+    {
+      "prefab": "FINAL_MODEL_EV",
+      "id": 0,
+      "sku": "tiguan",
+      "type": "product",
+      "price": 1099.0,
+      "title": "tiguan",
+      "description": "tiguan"
+    }
+  ]
+}

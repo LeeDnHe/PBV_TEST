@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 1e1c1d044ca1d49efb0d2620caff6b85
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Array
+    100002: //RootNode
+    100004: chrome
+    100006: Cylinder
+    100008: Default
+    100010: HyperNURBS
+    100012: Lathe NURBS
+    100014: Lathe NURBS_2
+    100016: Null Object
+    100018: pole
+    100020: tip
+    100022: Umbella base
+    100024: wood.1
+    100026: wood.2
+    100028: wood.3
+    100030: wood.4
+    100032: wood.5
+    100034: wood.6
+    400000: Array
+    400002: //RootNode
+    400004: chrome
+    400006: Cylinder
+    400008: Default
+    400010: HyperNURBS
+    400012: Lathe NURBS
+    400014: Lathe NURBS_2
+    400016: Null Object
+    400018: pole
+    400020: tip
+    400022: Umbella base
+    400024: wood.1
+    400026: wood.2
+    400028: wood.3
+    400030: wood.4
+    400032: wood.5
+    400034: wood.6
+    2100000: Material_1
+    2100002: Material_2
+    2100004: Material_3
+    2100006: Material_4
+    2100008: Material_5
+    2100010: Material_6
+    2100012: Material_7
+    2100014: Material_8
+    2100016: Material_9
+    2100018: Material_10
+    2100020: Material_11
+    2100022: Material_12
+    2100024: Material_13
+    2300000: chrome
+    2300002: Cylinder
+    2300004: Lathe NURBS
+    2300006: Lathe NURBS_2
+    2300008: pole
+    2300010: tip
+    2300012: Umbella base
+    2300014: wood.1
+    2300016: wood.2
+    2300018: wood.3
+    2300020: wood.4
+    2300022: wood.5
+    2300024: wood.6
+    3300000: chrome
+    3300002: Cylinder
+    3300004: Lathe NURBS
+    3300006: Lathe NURBS_2
+    3300008: pole
+    3300010: tip
+    3300012: Umbella base
+    3300014: wood.1
+    3300016: wood.2
+    3300018: wood.3
+    3300020: wood.4
+    3300022: wood.5
+    3300024: wood.6
+    4300000: Lathe NURBS
+    4300002: Lathe NURBS_2
+    4300004: wood.6
+    4300006: wood.5
+    4300008: wood.4
+    4300010: wood.3
+    4300012: wood.2
+    4300014: wood.1
+    4300016: tip
+    4300018: pole
+    4300020: Cylinder
+    4300022: chrome
+    4300024: Umbella base
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

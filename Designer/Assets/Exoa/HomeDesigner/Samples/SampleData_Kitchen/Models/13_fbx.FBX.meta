@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: a1adb38e04f53c449acf2c9f7aedd62f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cgaxis_models_10_13_01_1
+    100004: cgaxis_models_10_13_01_2
+    100006: cgaxis_models_10_13_01_3
+    100008: cgaxis_models_10_13_02_1
+    100010: cgaxis_models_10_13_02_1 1
+    100012: cgaxis_models_10_13_02_2
+    100014: cgaxis_models_10_13_03
+    100016: cgaxis_models_10_13_04_1
+    100018: cgaxis_models_10_13_04_2
+    100020: cgaxis_models_10_13_04_3
+    100022: cgaxis_models_10_13_05_1
+    100024: cgaxis_models_10_13_05_2
+    100026: cgaxis_models_10_13_05_3
+    100028: cgaxis_models_10_13_06
+    100030: cgaxis_models_10_13_07_1
+    100032: cgaxis_models_10_13_07_2
+    100034: cgaxis_models_10_13_07_3
+    100036: cgaxis_models_10_13_08
+    100038: cgaxis_models_10_13_1
+    100040: cgaxis_models_10_13_2
+    100042: cgaxis_models_10_13_3
+    400000: //RootNode
+    400002: cgaxis_models_10_13_01_1
+    400004: cgaxis_models_10_13_01_2
+    400006: cgaxis_models_10_13_01_3
+    400008: cgaxis_models_10_13_02_1
+    400010: cgaxis_models_10_13_02_1 1
+    400012: cgaxis_models_10_13_02_2
+    400014: cgaxis_models_10_13_03
+    400016: cgaxis_models_10_13_04_1
+    400018: cgaxis_models_10_13_04_2
+    400020: cgaxis_models_10_13_04_3
+    400022: cgaxis_models_10_13_05_1
+    400024: cgaxis_models_10_13_05_2
+    400026: cgaxis_models_10_13_05_3
+    400028: cgaxis_models_10_13_06
+    400030: cgaxis_models_10_13_07_1
+    400032: cgaxis_models_10_13_07_2
+    400034: cgaxis_models_10_13_07_3
+    400036: cgaxis_models_10_13_08
+    400038: cgaxis_models_10_13_1
+    400040: cgaxis_models_10_13_2
+    400042: cgaxis_models_10_13_3
+    2100000: cgaxis_models_10_13_03
+    2100002: cgaxis_models_10_13_07
+    2100004: cgaxis_models_10_13_02
+    2100006: cgaxis_models_10_13_01
+    2100008: cgaxis_models_10_13_05
+    2100010: cgaxis_models_10_13_04
+    2100012: cgaxis_models_10_13_08
+    2100014: cgaxis_models_10_13_06
+    2300000: cgaxis_models_10_13_01_1
+    2300002: cgaxis_models_10_13_01_2
+    2300004: cgaxis_models_10_13_01_3
+    2300006: cgaxis_models_10_13_02_1
+    2300008: cgaxis_models_10_13_02_1 1
+    2300010: cgaxis_models_10_13_02_2
+    2300012: cgaxis_models_10_13_03
+    2300014: cgaxis_models_10_13_04_1
+    2300016: cgaxis_models_10_13_04_2
+    2300018: cgaxis_models_10_13_04_3
+    2300020: cgaxis_models_10_13_05_1
+    2300022: cgaxis_models_10_13_05_2
+    2300024: cgaxis_models_10_13_05_3
+    2300026: cgaxis_models_10_13_06
+    2300028: cgaxis_models_10_13_07_1
+    2300030: cgaxis_models_10_13_07_2
+    2300032: cgaxis_models_10_13_07_3
+    2300034: cgaxis_models_10_13_08
+    3300000: cgaxis_models_10_13_01_1
+    3300002: cgaxis_models_10_13_01_2
+    3300004: cgaxis_models_10_13_01_3
+    3300006: cgaxis_models_10_13_02_1
+    3300008: cgaxis_models_10_13_02_1 1
+    3300010: cgaxis_models_10_13_02_2
+    3300012: cgaxis_models_10_13_03
+    3300014: cgaxis_models_10_13_04_1
+    3300016: cgaxis_models_10_13_04_2
+    3300018: cgaxis_models_10_13_04_3
+    3300020: cgaxis_models_10_13_05_1
+    3300022: cgaxis_models_10_13_05_2
+    3300024: cgaxis_models_10_13_05_3
+    3300026: cgaxis_models_10_13_06
+    3300028: cgaxis_models_10_13_07_1
+    3300030: cgaxis_models_10_13_07_2
+    3300032: cgaxis_models_10_13_07_3
+    3300034: cgaxis_models_10_13_08
+    4300000: cgaxis_models_10_13_03
+    4300002: cgaxis_models_10_13_07_1
+    4300004: cgaxis_models_10_13_02_1
+    4300006: cgaxis_models_10_13_01_1
+    4300008: cgaxis_models_10_13_05_1
+    4300010: cgaxis_models_10_13_04_1
+    4300012: cgaxis_models_10_13_07_2
+    4300014: cgaxis_models_10_13_02_2
+    4300016: cgaxis_models_10_13_01_2
+    4300018: cgaxis_models_10_13_05_2
+    4300020: cgaxis_models_10_13_04_2
+    4300022: cgaxis_models_10_13_07_3
+    4300024: cgaxis_models_10_13_05_3
+    4300026: cgaxis_models_10_13_08
+    4300028: cgaxis_models_10_13_01_3
+    4300030: cgaxis_models_10_13_06
+    4300032: cgaxis_models_10_13_04_3
+    4300034: cgaxis_models_10_13_02_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

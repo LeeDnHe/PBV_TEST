@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+    <engine:Header style="min-height:60px;">
+         <engine:H2 text="Tabs Manager" name="pageTitle" />
+    </engine:Header>
+
+    <engine:Div class="row" style="height:35px;min-height:35px;">
+        <engine:Div class="col-sm-4">
+            <engine:Button class="list" text="Categories" name="tabsBtn" />
+        </engine:Div>
+        <engine:Div class="col-sm-4">
+            <engine:Button class="list" text="Modules" name="modulesBtn"  />
+        </engine:Div>
+        <engine:Div class="col-sm-4">
+            <engine:Button class="list" text="Tools" name="toolsBtn" />
+        </engine:Div>
+    </engine:Div>
+
+    <engine:Div>
+
+    </engine:Div>
+
+
+
+
+
+    <engine:Main name="tabsPage" >
+        <engine:ScrollView class="container">
+            <editor:ReorderableList  name="tabsList" />
+            
+        
+        </engine:ScrollView>
+
+        <engine:Button class=" info" text="Add New Entry" name="addNewCategoryItemBtn"  />
+        <engine:Button class=" danger" text="Remove Selected Entry" name="removeSelectedCategoryItemBtn"  />
+        <engine:Button class="success" name="saveTabsBtn" text="Save" />
+        <engine:Button class="info" name="openTabsBtn" text="Open interior_categories.json" />
+        <engine:Button class="info" name="addMissingTabsBtn" text="Add missing categories from Resources/InteriorModules/" />
+    </engine:Main>
+
+
+
+
+
+    <engine:Main name="modulesPage" style="display:none;">
+        <engine:ScrollView class="container" >
+        <editor:ReorderableList  name="modulesList" />
+        
+        </engine:ScrollView>
+        <engine:Button class="info" text="Add New Entry" name="addNewModuleItemBtn"  />
+        <engine:Button class="danger" text="Remove Selected Entry" name="removeSelectedModuleItemBtn"  />
+        <engine:Button class="success" name="saveModulesBtn" text="Save" />
+        <engine:Button class="info" name="openModulesBtn" text="Open interior_modules.json" />
+        <engine:Button class="info" name="addMissingModulesBtn" text="Add missing modules from Resources/InteriorModules/" />
+    </engine:Main>
+
+
+
+
+
+    <engine:Main name="toolsPage" style="display:none;">
+      <engine:ScrollView class="container">
+       <engine:H3 text="Thumbnails" />
+        <engine:Button class="info" name="generateAllThumbnailsBtn" text="Generate All Thumbnails" />
+        <engine:H3  text="           " />
+        <engine:H3  text="           " />
+        <engine:H3  text="Module prefabs" />
+        <engine:Label  text="Create a new empty module" />
+        <engine:TextField name="newModuleName" label="Prefab Name" />
+        <engine:Div name="popupDiv">
+         </engine:Div>
+        <engine:Button class="info" name="createModuleBtn" text="Create" />
+
+
+        <engine:H3  text="           " />
+        <engine:H3  text="           " />
+        <engine:Label  text="Create modules prefabs from selected objects in hierarchy" />
+        <engine:Div name="popupDiv2">
+         </engine:Div>
+        <engine:Button class="info" name="createModuleBtn2" text="Create" />
+
+        </engine:ScrollView>
+    </engine:Main>
+
+</engine:UXML>

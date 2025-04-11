@@ -1,0 +1,32 @@
+﻿{
+  "folders": [
+    {
+      "folder": "Appliances",
+      "name": "Appliances"
+    },
+    {
+      "folder": "Cabinets",
+      "name": "Cabinets"
+    },
+    {
+      "folder": "Furnitures",
+      "name": "Furnitures"
+    },
+    {
+      "folder": "Lights",
+      "name": "Lightings"
+    },
+    {
+      "folder": "DoorsWindows",
+      "name": "Doors & Windows"
+    },
+    {
+      "folder": "Patio",
+      "name": "Patio"
+    },
+    {
+      "folder": "Cars",
+      "name": "Cars"
+    }
+  ]
+}

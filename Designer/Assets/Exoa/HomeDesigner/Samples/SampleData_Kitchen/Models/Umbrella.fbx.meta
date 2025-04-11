@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: a4637742d15664c93a832f4c8b59b62a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Array
+    100002: chrome
+    100004: Cube.1
+    100006: Cylinder
+    100008: Cylinder.2
+    100010: Cylinder.2.2
+    100012: Cylinder.3
+    100014: HyperNURBS
+    100016: Lathe NURBS
+    100018: pole
+    100020: Polygon
+    100022: tip
+    100024: Umbella base
+    100026: //RootNode
+    100028: wood.1
+    100030: wood.2
+    100032: wood.3
+    100034: wood.4
+    100036: wood.5
+    100038: wood.6
+    400000: Array
+    400002: chrome
+    400004: Cube.1
+    400006: Cylinder
+    400008: Cylinder.2
+    400010: Cylinder.2.2
+    400012: Cylinder.3
+    400014: HyperNURBS
+    400016: Lathe NURBS
+    400018: pole
+    400020: Polygon
+    400022: tip
+    400024: Umbella base
+    400026: //RootNode
+    400028: wood.1
+    400030: wood.2
+    400032: wood.3
+    400034: wood.4
+    400036: wood.5
+    400038: wood.6
+    2100000: Mat.3
+    2100002: Wood
+    2100004: SSteel
+    2100006: White
+    2300000: chrome
+    2300002: Cube.1
+    2300004: Cylinder
+    2300006: Cylinder.2
+    2300008: Cylinder.2.2
+    2300010: Cylinder.3
+    2300012: Lathe NURBS
+    2300014: pole
+    2300016: Polygon
+    2300018: tip
+    2300020: Umbella base
+    2300022: wood.1
+    2300024: wood.2
+    2300026: wood.3
+    2300028: wood.4
+    2300030: wood.5
+    2300032: wood.6
+    3300000: chrome
+    3300002: Cube.1
+    3300004: Cylinder
+    3300006: Cylinder.2
+    3300008: Cylinder.2.2
+    3300010: Cylinder.3
+    3300012: Lathe NURBS
+    3300014: pole
+    3300016: Polygon
+    3300018: tip
+    3300020: Umbella base
+    3300022: wood.1
+    3300024: wood.2
+    3300026: wood.3
+    3300028: wood.4
+    3300030: wood.5
+    3300032: wood.6
+    4300000: Umbella base
+    4300002: chrome
+    4300004: Cylinder
+    4300006: Cylinder.2
+    4300008: Cube.1
+    4300010: pole
+    4300012: tip
+    4300014: Lathe NURBS
+    4300016: wood.1
+    4300018: wood.2
+    4300020: wood.3
+    4300022: wood.4
+    4300024: wood.5
+    4300026: wood.6
+    4300028: Cylinder.2.2
+    4300030: Polygon
+    4300032: Cylinder.3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.3
+    second: {fileID: 2100000, guid: 897ee825b67d941f5957cfc439be0e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SSteel
+    second: {fileID: 2100000, guid: 49756696d6af24b1d973de8cc389d9f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: ef689731a321e411d80a17c1ec580ad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: d7da9133717b1424490da668d5b02440, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,88 @@
+{
+  "version": "v2",
+  "floors": [
+    {
+      "uniqueId": "a71f0c46-cb15-4aac-bde9-7d3d84a82135",
+      "spaces": [
+        {
+          "type": "Room",
+          "normalizedPositions": [
+            {
+              "x": 0.3,
+              "y": 0.199999973,
+              "z": 0.0
+            },
+            {
+              "x": 0.3,
+              "y": 0.6999999,
+              "z": 0.0
+            },
+            {
+              "x": -0.2,
+              "y": 0.6999999,
+              "z": 0.0
+            },
+            {
+              "x": -0.2,
+              "y": 1.1,
+              "z": 0.0
+            },
+            {
+              "x": 0.7,
+              "y": 1.1,
+              "z": 0.0
+            },
+            {
+              "x": 0.7,
+              "y": 0.199999973,
+              "z": 0.0
+            }
+          ],
+          "directions": [
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "wallsHeight": 3.0,
+    "doorsHeight": 2.5,
+    "interiorWallThickness": 0.05,
+    "exteriorWallThickness": 0.1,
+    "windowsThickness": 0.06,
+    "doorsThickness": 0.06,
+    "roofThickness": 0.2,
+    "roofOverhang": 0.2,
+    "roofType": 2
+  }
+}

@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 448bbc98ccff94859aed31c2fd8b1a2e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder106
+    100004: Cylinder107
+    100006: Cylinder116
+    100008: Group022
+    100010: Group023
+    100012: Line013
+    100014: Object095
+    100016: Object096
+    100018: Object097
+    100020: Shyryp_vipyklii_013
+    100022: Shyryp_vipyklii_014
+    100024: Sphere003
+    100026: VRayLight005
+    400000: //RootNode
+    400002: Cylinder106
+    400004: Cylinder107
+    400006: Cylinder116
+    400008: Group022
+    400010: Group023
+    400012: Line013
+    400014: Object095
+    400016: Object096
+    400018: Object097
+    400020: Shyryp_vipyklii_013
+    400022: Shyryp_vipyklii_014
+    400024: Sphere003
+    400026: VRayLight005
+    2100000: Metal_Hrom
+    2100002: Paint_White
+    2100004: Shnyr
+    2100006: Plafon
+    2300000: Cylinder106
+    2300002: Cylinder107
+    2300004: Cylinder116
+    2300006: Line013
+    2300008: Object095
+    2300010: Object096
+    2300012: Object097
+    2300014: Shyryp_vipyklii_013
+    2300016: Shyryp_vipyklii_014
+    2300018: Sphere003
+    3300000: Cylinder106
+    3300002: Cylinder107
+    3300004: Cylinder116
+    3300006: Line013
+    3300008: Object095
+    3300010: Object096
+    3300012: Object097
+    3300014: Shyryp_vipyklii_013
+    3300016: Shyryp_vipyklii_014
+    3300018: Sphere003
+    4300000: Shyryp_vipyklii_014
+    4300002: Object095
+    4300004: Cylinder106
+    4300006: Cylinder107
+    4300008: Line013
+    4300010: Object096
+    4300012: Cylinder116
+    4300014: Sphere003
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Hrom
+    second: {fileID: 2100000, guid: 5c3c91b3f500d4af8bb308a2d17d3bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_White
+    second: {fileID: 2100000, guid: b70d7d4e3aca84ba0a4aec50eb23d508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon
+    second: {fileID: 2100000, guid: 516b5e293d8af479082e2d1e0f7aa78c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shnyr
+    second: {fileID: 2100000, guid: 2fe6fd382e29d4abc938376e89747be1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

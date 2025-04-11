@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 581e1309480844595a7849be0a0916e2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bench
+    100002: Chair
+    100004: Chair.001
+    100006: Chair.002
+    100008: Chair.003
+    100010: Design
+    100012: Design.001
+    100014: //RootNode
+    100016: Seat
+    100018: Seat.001
+    100020: Seat.002
+    100022: Seat.003
+    100024: Support
+    100026: Support.001
+    100028: Top
+    100030: Top.001
+    400000: Bench
+    400002: Chair
+    400004: Chair.001
+    400006: Chair.002
+    400008: Chair.003
+    400010: Design
+    400012: Design.001
+    400014: //RootNode
+    400016: Seat
+    400018: Seat.001
+    400020: Seat.002
+    400022: Seat.003
+    400024: Support
+    400026: Support.001
+    400028: Top
+    400030: Top.001
+    2100000: Wood_Light.002
+    2100002: Wood_Light
+    2100004: Wood.003
+    2100006: Wood_Light.001
+    2100008: Wood.004
+    2100010: Wood.005
+    2300000: Bench
+    2300002: Chair
+    2300004: Chair.001
+    2300006: Chair.002
+    2300008: Chair.003
+    2300010: Design
+    2300012: Design.001
+    2300014: //RootNode
+    2300016: Seat
+    2300018: Seat.001
+    2300020: Seat.002
+    2300022: Seat.003
+    2300024: Support
+    2300026: Support.001
+    2300028: Top
+    2300030: Top.001
+    3300000: Bench
+    3300002: Chair
+    3300004: Chair.001
+    3300006: Chair.002
+    3300008: Chair.003
+    3300010: Design
+    3300012: Design.001
+    3300014: //RootNode
+    3300016: Seat
+    3300018: Seat.001
+    3300020: Seat.002
+    3300022: Seat.003
+    3300024: Support
+    3300026: Support.001
+    3300028: Top
+    3300030: Top.001
+    4300000: Avilys_Dining_Table
+    4300002: Chair.003
+    4300004: Seat.003
+    4300006: Chair.002
+    4300008: Seat.002
+    4300010: Chair.001
+    4300012: Seat.001
+    4300014: Chair
+    4300016: Seat
+    4300018: Bench
+    4300020: Design
+    4300022: Support
+    4300024: Top
+    4300026: Design.001
+    4300028: Support.001
+    4300030: Top.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.003
+    second: {fileID: 2100000, guid: fa053e5c79c8f484698cff92f759cc31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.004
+    second: {fileID: 2100000, guid: cc744a5bcfcb84049a97f07753d7b1f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.005
+    second: {fileID: 2100000, guid: 18a84a68cc8634175afbdb686d8dc1db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Light
+    second: {fileID: 2100000, guid: e9d34defbe56445b387fc52bfe5221ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Light.001
+    second: {fileID: 2100000, guid: 0649a107cc69b40f78f0f91ace121862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Light.002
+    second: {fileID: 2100000, guid: 6b4f19926792f483a96627da4625bf88, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
