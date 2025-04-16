@@ -19,7 +19,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingHTML/Build;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingHTML;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingTest/Build;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingTest;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/NewTest;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/Test4;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/Test3;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Server/test;C:/Users/ehoye/Documents/RV/Designer/WebGL Builds/Test3;C:/Users/ehoye/Documents/RV/Designer/WebGL Builds/Test2\"}"
+                "value": "{\"m_Value\":\"C:/Users/ehoye/Documents/RV/HostingHTML;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingHTML/Build;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingHTML;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingTest/Build;C:/Users/ehoye/Documents/RV/Kwangchae_project/HostingTest;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/NewTest;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/Test4;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Builds/Test3;C:/Users/ehoye/Documents/RV/Kwangchae_project/PBV_Test/Designer/WebGL Server/test;C:/Users/ehoye/Documents/RV/Designer/WebGL Builds/Test3\"}"
             }
         ]
     }
