@@ -6,6 +6,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
+using UnityEditor;
 
 namespace RuntimeInspectorNamespace
 {
@@ -683,6 +684,98 @@ namespace RuntimeInspectorNamespace
 			}
 
 			return new ExposedVariablesEnumerator( allVariables, hiddenVariablesForType, exposedVariablesForType, m_exposeFields, m_exposeProperties );
+		}
+	}
+
+	public class AutoColliderGenerator : MonoBehaviour
+	{
+		[MenuItem("Tools/Generate Seat Colliders")]
+		public static void GenerateSeatColliders()
+		{
+			// 선택된 모든 객체에 대해 처리
+			foreach (GameObject selectedObj in Selection.gameObjects)
+			{
+				ProcessSeatMesh(selectedObj);
+			}
+		}
+		
+		public static void ProcessSeatMesh(GameObject seatObject)
+		{
+			// 기존 콜라이더 제거
+			Collider[] existingColliders = seatObject.GetComponents<Collider>();
+			foreach (var collider in existingColliders)
+			{
+				DestroyImmediate(collider);
+			}
+			
+			MeshFilter meshFilter = seatObject.GetComponent<MeshFilter>();
+			if (!meshFilter || !meshFilter.sharedMesh) return;
+			
+			Mesh mesh = meshFilter.sharedMesh;
+			
+			// 메시 분석하여 앉는 부분, 등받이 부분 분리
+			Vector3[] vertices = mesh.vertices;
+			
+			// 로컬 좌표계의 버텍스 위치 기반 클러스터링
+			List<Vector3> seatVertices = new List<Vector3>();
+			List<Vector3> backrestVertices = new List<Vector3>();
+			
+			// Y값 기준으로 버텍스 분류 (중간값 찾기)
+			float[] yValues = new float[vertices.Length];
+			for (int i = 0; i < vertices.Length; i++)
+			{
+				yValues[i] = vertices[i].y;
+			}
+			System.Array.Sort(yValues);
+			float medianY = yValues[yValues.Length / 2];
+			
+			// 버텍스 분리 (중간값 기준)
+			foreach (Vector3 vertex in vertices)
+			{
+				if (vertex.y < medianY)
+					seatVertices.Add(vertex);
+				else
+					backrestVertices.Add(vertex);
+			}
+			
+			// 앉는 부분용 박스 콜라이더 생성
+			if (seatVertices.Count > 0)
+			{
+				BoxCollider seatCollider = seatObject.AddComponent<BoxCollider>();
+				SetBoxColliderFromVertices(seatCollider, seatVertices, seatObject.transform);
+				seatCollider.name = "SeatCollider";
+			}
+			
+			// 등받이용 박스 콜라이더 생성
+			if (backrestVertices.Count > 0)
+			{
+				BoxCollider backrestCollider = seatObject.AddComponent<BoxCollider>();
+				SetBoxColliderFromVertices(backrestCollider, backrestVertices, seatObject.transform);
+				backrestCollider.name = "BackrestCollider";
+			}
+		}
+		
+		private static void SetBoxColliderFromVertices(BoxCollider collider, List<Vector3> vertices, Transform transform)
+		{
+			// 버텍스 집합으로 바운딩 박스 계산
+			Vector3 min = vertices[0];
+			Vector3 max = vertices[0];
+			
+			foreach (Vector3 vertex in vertices)
+			{
+				min = Vector3.Min(min, vertex);
+				max = Vector3.Max(max, vertex);
+			}
+			
+			// 박스 콜라이더 설정
+			Vector3 center = (min + max) / 2f;
+			Vector3 size = max - min;
+			
+			// 약간의 여유 추가 (정확한 맞춤을 위해)
+			size *= 1.02f;
+			
+			collider.center = center;
+			collider.size = size;
 		}
 	}
 }
